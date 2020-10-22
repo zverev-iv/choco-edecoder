@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>edecoder</id>
+    <version>1.20.3</version>
+    <packageSourceUrl>https://github.com/zverev-iv/choco-edecoder</packageSourceUrl>
+    <owners>zverev-iv</owners>
+    <title>edecoder (Install)</title>
+    <authors>Dec Software</authors>
+    <projectUrl>https://www.tc4shell.com/en/7zip/edecoder/</projectUrl>
+    <copyright>2020 Dec Software</copyright>
+    <licenseUrl>https://www.tc4shell.com/en/termsofuse/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>edecoder 7zip 7-zip MGS TNEF DBX MBX MBOX TBB PMM EMLX EML NWS MHT MHTML B64 UUE XXENTX BIN HQX WARC</tags>
+    <summary>eDecoder is a plugin for the popular archiver 7-Zip. It enables 7-Zip to handle many different types of mailboxes</summary>
+    <description>eDecoder is a plugin for the popular archiver 7-Zip. It enables 7-Zip to handle many different types of mailboxes (files that contain email messages) like archives. It also enables 7-Zip to handle email message files like archives. Thanks to eDecoder, you can easily extract an email message or only an email attachment from a mail base without using the email client that created that mail base. Moreover, eDecoder enables 7-Zip to open so-called web archive files (MIME HTML files, which usually have the extension MHT or MHTML), as well as to open or create UUE and XXE encoded files.
+
+The eDecoder plugin also contains eSplitter. It's a special codec that helps 7-Zip pack text files containing binary data encoded using base64 and some other binary-to-text encoding schemes (for example, web pages saved in the MHTML format, email messages in the EML format, mail bases in the MBOX and TBB formats, illustrated e-books in the FB2 format, and many more) into 7z files more efficiently.
+
+List of formats that can be opened in 7-Zip with eDecoder
+
+- MGS - used by Microsoft Office Outlook
+- TNEF - used by Microsoft Office Outlook (winmail.dat or ATT0001.dat files)
+- DBX - used by Outlook Express 5 and 6
+- MBX - used by Outlook Express 4
+- MBOX - used by the following applications:
+Mozilla Thunderbird
+SeaMonkey
+Netscape
+Apple Mail
+Opera
+Opera Mail
+Eudora
+Mulberry
+Pine
+PocoMail
+and by many other email clients
+- TBB - used by The Bat!
+- PMM - used by Pegasus Mail
+- EMLX - used by Apple Mail
+- EML, NWS, MHT, MHTML, B64
+- UUE, XXE
+- NTX - YEnc files
+- BIN - MacBinary files
+- HQX - BinHex files
+- WARC - Web ARChive files
+    </description>
+    <releaseNotes>Current version
+
+Plugin version: 1.20.3
+
+Distribution package release date: 08 May 2020
+    </releaseNotes>
+    <dependencies>
+        <dependency id="7zip.install" version="19.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
